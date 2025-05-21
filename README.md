@@ -1,4 +1,4 @@
-# My Paper Title
+# Neural Entropy
 
 This repository is the official implementation of [Neural Entropy](https://arxiv.org/abs/2409.03817v2). 
 
@@ -7,11 +7,8 @@ This repository is the official implementation of [Neural Entropy](https://arxiv
 Neural entropy is a measure of the information stored in a neural network at the heart of a diffusion model. An important experimental observation from our paper is the logarithmic scaling of neural entropy $S_{\rm NN}$ with the number of training samples $N$. That is, the additional information absorbed by the network per new sample scales nearly as $1/N$.
 The visual quality of generated images also reflects this observation: training a diffusion model with $n_c$ samples per class of CIFAR-10 (i.e. $N=10 n_c$) produces improvements in visual quality as $n_c$ increases initially, but there is diminishing returns from training on more samples at larger $n_c$.
 
-<!-- ![Neural Entropy vs. N](figures/CIFAR10_grid_seed23.png) -->
-<p float="left">
-  <img src="figures/entropy_vs_N.png"/>
-  <img src="figures/CIFAR10_grid_seed23.png" width="61.5%"/>
-</p>
+![Neural Entropy vs. N](figures/entropy_vs_N.png)
+![CIFAR-10 samples](figures/CIFAR10_grid_seed23.png)
 
 ## 🛠️ Setup Instructions
 
